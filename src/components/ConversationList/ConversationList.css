@@ -1,0 +1,30 @@
+.conversation-list{
+    display: flex;
+    flex-direction: column;
+}
+.sidebar-header{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    border-right: 1px solid lightgray;
+}
+.sidebar-search {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    height: 20%;
+    border-radius: 5px;
+    margin: 10px 20px;
+    box-shadow: 1px 1px 4px 0px #cac7c7;
+}
+.sidebar-search > .MuiSvgIcon-root{
+    color: gray;
+    padding: 10px 10px;
+    
+}
+.sidebar-search > input{
+    border: none;
+    outline-width: 0;
+    
+
+}
